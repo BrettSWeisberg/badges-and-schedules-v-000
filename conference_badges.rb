@@ -23,6 +23,9 @@ end
 
 
 
-def printer
-  assign_rooms(names).comp("!")
+def printer(names)
+  assign_rooms(names).each do |name|
+    puts name.chars[-2]   
+  end
+  puts batch_badge_creator(names)
 end
