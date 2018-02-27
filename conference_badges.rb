@@ -24,6 +24,6 @@ end
 
 
 def printer
-  print batch_badge_creator(names)
-  print assign_rooms(names) 
+  print batch_badge_creator
+  print assign_rooms
 end
