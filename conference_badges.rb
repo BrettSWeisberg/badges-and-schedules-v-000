@@ -29,5 +29,5 @@ def printer(names)
    end
   assign_rooms(names).each do |name|
     puts name.chars[-2]
-  end  
+  end
 end
