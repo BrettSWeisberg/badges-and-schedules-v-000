@@ -24,6 +24,6 @@ end
 
 
 def printer
-  print batch_badge_creator
-  print assign_rooms
+  puts batch_badge_creator
+  puts assign_rooms
 end
